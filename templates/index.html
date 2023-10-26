@@ -7,7 +7,7 @@
         {% for movies in instances %}
         <div class="col-md-3 mr-3">
             <div class="card" style="width: 18rem;height: 31rem;margin-bottom: 20px; ">
-                <img class="card-img-top" src="{{movies.image.url}}" alt="Card image cap" style="width: 286px; height: 250px;">
+                <img class="card-img-top movie_image" src="{{movies.image.url}}" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">{{ movies.name }}</h5>
                   <p class="card-text">{{ movies.description }} </p>

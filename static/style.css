@@ -24,3 +24,7 @@ input[type="text"], input[type="number"], input[type="url"] {
 .detail-image{
     margin: 50px 50px ;
 }
+
+.movie_image{
+    max-height:250px;
+}
