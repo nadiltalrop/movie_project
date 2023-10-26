@@ -1,0 +1,26 @@
+body{
+    background-color: #adf0d0;
+}
+
+.add-form{
+    width: 300px;
+    margin: 150px auto;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="number"], input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.update{
+    margin: 20px auto;
+    width: 50%;
+}
+
+.detail-image{
+    margin: 50px 50px ;
+}
